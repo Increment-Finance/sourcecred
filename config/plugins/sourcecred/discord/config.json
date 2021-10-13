@@ -1,8 +1,13 @@
 [
   {
     "channelWeightConfig": {
-      "defaultWeight": 1,
-      "weights": {}
+      "defaultWeight": 0,
+      "weights": {
+        "865432402184241157": 1,
+        "872571170325663855": 1,
+        "865432402184241153": 1,
+        "872577845665345596": 1
+      }
     },
     "guildId": "865432401270145054",
     "includeNsfwChannels": false,
@@ -11,13 +16,17 @@
       "applyAveraging": false,
       "defaultWeight": 1,
       "weights": {
-        "sourcecred:678399364418502669": 10,
-        "👍": 1
+        "increment:894637240922275870": 3,
+        "👏": 2
       }
     },
     "roleWeightConfig": {
-      "defaultWeight": 1,
-      "weights": {}
+      "defaultWeight": 0,
+      "weights": {
+        "865433241413353472": 2,
+        "894636095378178108": 1,
+        "887454945723433060": 0
+      }
     }
   }
 ]
