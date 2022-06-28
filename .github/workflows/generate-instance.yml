@@ -30,7 +30,7 @@ jobs:
           yarn sourcecred go
           yarn sourcecred analysis
         env:
-          NODE_OPTIONS: "--max_old_space_size=16384"
+          NODE_OPTIONS: "--max_old_space_size=8192"
           SOURCECRED_GITHUB_TOKEN: ${{ secrets.SOURCECRED_GITHUB_TOKEN }}
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
 
