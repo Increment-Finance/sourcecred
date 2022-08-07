@@ -1,7 +1,57 @@
 {
-  "bundledPlugins": [
-    "sourcecred/discord",
-    "sourcecred/github",
-    "sourcecred/discourse"
+  "bundledPlugins": ["sourcecred/discord"],
+  "credEquatePlugins": [
+    {
+      "id": "sourcecred/discord",
+      "configsByTarget": {
+        "865432401270145054": [
+          {
+            "memo": "Initial Config",
+            "startDate": "1/1/2021",
+            "weights": [
+              {
+                "key": "emoji",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "increment:894637240922275870",
+                    "weight": 3
+                  },
+                  {
+                    "subkey": "👏",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "👍",
+                    "weight": 1
+                  }
+                ]
+              },
+              {
+                "key": "role",
+                "default": 0,
+                "subkeys": [
+                  {
+                    "subkey": "865433241413353472",
+                    "memo": "Increment Role",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "894636095378178108",
+                    "memo": "Verified Role",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "894636095378178108",
+                    "memo": "Bot Role",
+                    "weight": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   ]
 }
