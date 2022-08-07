@@ -48,7 +48,18 @@
                   }
                 ]
               }
-            ]
+            ],
+            "operators": [
+              {
+                "key": "reactionsAcrossParticipants",
+                "operator": "AVERAGE"
+              },
+              {
+                "key": "reactionsOfSingleParticipant",
+                "operator": "MAX"
+              }
+            ],
+            "shares": []
           }
         ]
       }
