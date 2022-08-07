@@ -85,7 +85,18 @@
                 "operator": "MAX"
               }
             ],
-            "shares": []
+            "shares": [
+              {
+                "key": "author",
+                "default": 1,
+                "subkeys": []
+              },
+              {
+                "key": "mention",
+                "default": 1,
+                "subkeys": []
+              }
+            ]
           }
         ]
       }
