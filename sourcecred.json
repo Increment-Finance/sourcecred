@@ -47,6 +47,32 @@
                     "weight": 0
                   }
                 ]
+              },
+              {
+                "key": "channel",
+                "default": 0,
+                "subkeys": [
+                  {
+                    "subkey": "865432402184241157",
+                    "memo": "#💬｜general",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872571170325663855",
+                    "memo": "#📈｜trading",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "947921488189739058",
+                    "memo": "#🌞｜gmooor",
+                    "weight": 0
+                  }
+                ]
+              },
+              {
+                "key": "category",
+                "default": 1,
+                "subkeys": []
               }
             ],
             "operators": [
