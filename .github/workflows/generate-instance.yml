@@ -12,7 +12,8 @@ jobs:
   start-runner:
     name: Start self-hosted EC2 runner
     runs-on: ubuntu-latest
-    label: ${{ steps.start-ec2-runner.outputs.label }}
+    outputs:
+      label: ${{ steps.start-ec2-runner.outputs.label }}
       ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
     steps:
       - name: Configure AWS credentials
