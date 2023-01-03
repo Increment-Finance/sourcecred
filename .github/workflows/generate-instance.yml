@@ -30,8 +30,8 @@ jobs:
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
           ec2-image-id: ami-0c0d787869fb4ddfb
           ec2-instance-type: t2.2xlarge
-          subnet-id: subnet-0afda3c5b536d8d6e
-          security-group-id: sg-0832fd582c0f745f1
+          subnet-id: subnet-029cb08efde70a9b7
+          security-group-id: sg-00194b519f85a922a
 
   generate-cred-instance:
     name: Generate Cred Instance
